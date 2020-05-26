@@ -1,0 +1,47 @@
+.UserForm {
+    margin: 50px auto;
+    width: 90%;
+    box-shadow: 0 5px 5px #ccc;
+    border: 1px solid  rgb(113, 255, 205);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.Input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.InputElement {
+    outline: none;
+    border: 1px solid rgb(248, 246, 246);
+    background-color: rgb(219, 255, 242);
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.InputElement:focus {
+    outline: none;
+    background-color: rgb(174, 255, 225);
+}
+
+h2 {
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    .ContactData {
+        width: 500px;
+    }
+}
